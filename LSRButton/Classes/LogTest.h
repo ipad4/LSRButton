@@ -6,14 +6,13 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
 
 NS_ASSUME_NONNULL_BEGIN
 
 @interface LogTest : NSObject
 
-- (void)test;
-
-- (void)love;
++ (void)showLogoInParentView:(UIView *)parentView;
 
 @end
 

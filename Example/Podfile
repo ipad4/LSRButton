@@ -1,4 +1,4 @@
-use_frameworks!
+#use_frameworks!
 
 target 'LSRButton_Example' do
   pod 'LSRButton', :path => '../'

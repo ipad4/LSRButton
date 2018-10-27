@@ -21,9 +21,9 @@
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
-		7E6D36150F55AF355E12A784 /* Pods_LSRButton_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A1AB14FD4A62BCE6B024ABB /* Pods_LSRButton_Example.framework */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
-		FDE22FD1509102B025710F06 /* Pods_LSRButton_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7ED06D005890635C90910031 /* Pods_LSRButton_Tests.framework */; };
+		A35862B2B220B48A631F4BB6 /* libPods-LSRButton_Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CC819899356B2BB4E0F4FA74 /* libPods-LSRButton_Example.a */; };
+		ED6188D033ED7752E78458AE /* libPods-LSRButton_Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B0604A2840E16DA1893EE87C /* libPods-LSRButton_Tests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +37,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		3A1AB14FD4A62BCE6B024ABB /* Pods_LSRButton_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LSRButton_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D544D46E33810C1547DA016 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* LSRButton_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LSRButton_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -59,13 +58,14 @@
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		7ED06D005890635C90910031 /* Pods_LSRButton_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LSRButton_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F8F308C0B86FFED540DECDA /* Pods-LSRButton_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LSRButton_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LSRButton_Example/Pods-LSRButton_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		843BBAD396AB78445D4DD666 /* Pods-LSRButton_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LSRButton_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LSRButton_Tests/Pods-LSRButton_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8EFD0304FA948720A57B9FF2 /* Pods-LSRButton_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LSRButton_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LSRButton_Tests/Pods-LSRButton_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		8FD4069308E89F7E923AC676 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		915F866A8478A4BB6F85DB41 /* Pods-LSRButton_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LSRButton_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-LSRButton_Example/Pods-LSRButton_Example.release.xcconfig"; sourceTree = "<group>"; };
+		B0604A2840E16DA1893EE87C /* libPods-LSRButton_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LSRButton_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC819899356B2BB4E0F4FA74 /* libPods-LSRButton_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LSRButton_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE7FAA0B22CE30D6FBB788F1 /* LSRButton.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = LSRButton.podspec; path = ../LSRButton.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -77,7 +77,7 @@
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
-				7E6D36150F55AF355E12A784 /* Pods_LSRButton_Example.framework in Frameworks */,
+				A35862B2B220B48A631F4BB6 /* libPods-LSRButton_Example.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,7 +88,7 @@
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				FDE22FD1509102B025710F06 /* Pods_LSRButton_Tests.framework in Frameworks */,
+				ED6188D033ED7752E78458AE /* libPods-LSRButton_Tests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -123,8 +123,8 @@
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
-				3A1AB14FD4A62BCE6B024ABB /* Pods_LSRButton_Example.framework */,
-				7ED06D005890635C90910031 /* Pods_LSRButton_Tests.framework */,
+				CC819899356B2BB4E0F4FA74 /* libPods-LSRButton_Example.a */,
+				B0604A2840E16DA1893EE87C /* libPods-LSRButton_Tests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -207,7 +207,7 @@
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
-				78321E3A77F54EABF1E21C77 /* [CP] Embed Pods Frameworks */,
+				530CC0F3D7062D7BB7EE38E3 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -294,6 +294,28 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		530CC0F3D7062D7BB7EE38E3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-LSRButton_Example/Pods-LSRButton_Example-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/LSRButton/LSRButton.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/LSRButton.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LSRButton_Example/Pods-LSRButton_Example-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		5B531A9817AD1EE8B62AB19D /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -336,30 +358,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		78321E3A77F54EABF1E21C77 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-LSRButton_Example/Pods-LSRButton_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
-				"${BUILT_PRODUCTS_DIR}/LSRButton/LSRButton.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LSRButton.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LSRButton_Example/Pods-LSRButton_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */

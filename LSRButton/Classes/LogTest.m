@@ -9,14 +9,27 @@
 
 @implementation LogTest
 
-- (void)test
++ (void)showLogoInParentView:(UIView *)parentView
 {
-    NSLog(@"test333");
+    UIImageView *imv = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"logo"
+                                                                     inBundle:[LogTest resource_bundle]
+                                                compatibleWithTraitCollection:nil]];
+    [imv sizeToFit];
+    
+    imv.center = CGPointMake(CGRectGetWidth(parentView.bounds)/2.f, CGRectGetHeight(parentView.bounds)/2.f);
+    
+    [parentView addSubview:imv];
 }
 
-- (void)love
++ (NSBundle *)resource_bundle
 {
-    NSLog(@"love");
+    NSString *bundlePath = [[NSBundle bundleForClass:[self class]].resourcePath
+                            stringByAppendingPathComponent:@"/LSRButton.bundle"];
+    NSBundle *resource_bundle = [NSBundle bundleWithPath:bundlePath];
+    
+    NSLog(@"bundlePath:%@",bundlePath);
+
+    return resource_bundle;
 }
 
 @end
