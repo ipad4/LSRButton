@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'LSRButton_Example' do
+  pod 'LSRButton', :path => '../'
+
+  target 'LSRButton_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
