@@ -7,6 +7,7 @@
 //
 
 #import "srViewController.h"
+#import "LogTest.h"
 
 @interface srViewController ()
 
@@ -18,6 +19,10 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    
+    LogTest *log = [LogTest alloc];
+    [log test];
+    [log love];
 }
 
 - (void)didReceiveMemoryWarning
